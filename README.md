@@ -1,2 +1,1 @@
-# militarry_test1
-#elazar kowler 315466219 golan
+elazar kowler golan 315466219
