@@ -43,7 +43,7 @@ def play_round(player_1: dict, player_2: dict)-> None:
     if card1[0]["value"]>card2[0]["value"]:
         won_pile1.append(card1[0])
         won_pile1.append(card2[0])
-    elif card1[0]["value"]>card2[0]["value"]:
+    elif card1[0]["value"]<card2[0]["value"]:
         won_pile2.append(card1[0])
         won_pile2.append(card2[0])
     del card1[0]
